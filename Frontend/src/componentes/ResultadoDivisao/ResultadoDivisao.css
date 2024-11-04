@@ -1,0 +1,29 @@
+.resultado-divisao {
+    padding: 20px;
+    background-color: rgb(236, 217, 217);
+    border: 1px solid bisque;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.resultado-divisao h2 {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.resultado-divisao ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resultado-divisao li {
+    padding: 5px 0;
+    font-size: 18px;
+
+}
+
+.resultado-divisao li:before {
+    content: "→ "; /* Adiciona uma seta antes de cada item da lista */
+    color: #001df6; /* Cor da seta */
+}
